@@ -1,9 +1,9 @@
-Papa.parse("kemena_dataset.csv", {
+Papa.parse("kemena_dataset.csv",{
 
-download: true,
-header: true,
+download:true,
+header:true,
 
-complete: function(results) {
+complete:function(results){
 
 let d = results.data[0]
 
